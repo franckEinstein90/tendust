@@ -1,0 +1,11 @@
+#canvasContainer {
+    width:700px; 
+    height:500px; 
+}
+#gameCanvas {
+    width:700px; 
+    height:500px; 
+    border-width: 3px; 
+    border-color:white;
+    border-style:inset; 
+}
