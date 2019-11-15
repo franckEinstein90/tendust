@@ -1,7 +1,24 @@
 "use strict"; 
 
-class ship {
+const gameObjects = (function(){
+    
+    return {
+       movingObject: class {
+            constructor({x, y, r, a}){
+
+            }
+       } 
+    }
+})()
+
+class ship extends gameObjects.movingObject{
     constructor(canvas, ctx){
+        super({
+                x: canvas.width/2, 
+                y: canvas.height/2, 
+                r: 14, 
+                a: 90/100*Math.PI
+                })
         this.$canvas = canvas
         this.$ctx = ctx
     }
