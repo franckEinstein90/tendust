@@ -29,7 +29,7 @@ ship.prototype.render = function(){
     let left = 40
     this.$ctx.strokeStyle = "#FFFFFF"
     this.$ctx.lineWidth = 4
-    this.$ctx.moveTo(left, 20);
+    this.$ctx.moveTo(left, 40);
     this.$ctx.lineTo(100,100);
     this.$ctx.lineTo(left,100);
     this.$ctx.lineTo(100,20);
